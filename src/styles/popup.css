@@ -1,0 +1,38 @@
+.popup {
+  position: fixed;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 1.6vw 3vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 100%;
+  color: #fff;
+  font-size: 1vw;
+  background-color: rgb(42, 83, 115);
+}
+
+@media screen and (max-width: 340px) {
+  .popup {
+    top: 3.6%;
+    padding: 4vw 6vw;
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 340px) and (max-width: 768px) {
+  .popup {
+    top: 3.6%;
+    padding: 4vw 6vw;
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .popup {
+    top: 2.6%;
+    padding: 2vw 4vw;
+    font-size: 3vw;
+  }
+}/*# sourceMappingURL=popup.css.map */

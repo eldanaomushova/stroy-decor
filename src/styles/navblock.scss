@@ -1,0 +1,46 @@
+.navBlockItems-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    width: 100%;
+}
+.navOneLine{
+    margin: 0 auto;
+}
+.navBlockItems-container a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 3vw;
+    transition: color 0.3s ease;
+    font-size: 1.5vw;
+}
+.navBlockItems-container a:hover {
+    color: #007bff;
+}
+
+@media screen and (max-width: 340px) {
+    .navBlockItems-container{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 768px) {
+    .navBlockItems-container{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navBlockItems-container{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
